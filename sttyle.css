@@ -58,7 +58,7 @@ header {
   gap: 0.3rem;
 }
 
-.header-right i {
+.header-right div i {
   height: 3.4rem;
   width: 3.4rem;
   display: flex;
@@ -67,6 +67,11 @@ header {
   border-radius: 50%;
   cursor: pointer;
   background-color: var(--white-font);
+}
+
+.header-right div {
+  display: flex;
+  gap: 0.3rem;
 }
 
 .button {
@@ -345,5 +350,11 @@ header {
 
   .container {
     padding-top: 2.5rem;
+  }
+
+  .header-right {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
