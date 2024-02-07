@@ -239,7 +239,7 @@ header {
 }
 
 .module {
-  height: 100vh;
+  height: 80vh;
 }
 
 .top {
@@ -273,6 +273,84 @@ header {
   margin: 1.5rem 0 2rem 0;
 }
 
+.graphic {
+  display: flex;
+  height: 80vh;
+}
+
+.graphic-left {
+  flex: 1.3;
+}
+
+.graphic-inclusive {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+}
+
+.graphic-tittle {
+  font-size: 2.5rem;
+}
+
+.graphic-list {
+  margin-top: 1.5rem;
+}
+
+.graphic-list p {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.graphic-list i {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--black-font);
+  color: var(--white-font);
+  margin-right: 0.7rem;
+}
+
+.graphic-buttons {
+  margin-top: 3rem;
+}
+
+.graphic-buttons button:nth-child(1) {
+  background-color: var(--green-color);
+  border: none;
+}
+
+.graphic-buttons button:nth-child(2) {
+  background-color: var(--white-font);
+}
+
+.graphic-buttons button:nth-child(1):hover {
+  background-color: var(--hover-gren-color);
+  transition: 0.5s;
+}
+
+.graphic-buttons button:nth-child(2):hover {
+  background-color: #e2e7e5;
+  transition: 0.5s;
+}
+
+.graphic-right {
+  flex: 1;
+}
+
+.graphic-right img {
+  height: 70%;
+  width: 70%;
+}
+
+.graphic2 {
+  display: flex;
+  justify-content: end;
+}
+
 @keyframes different {
   0% {
     transform: translateX(95rem);
@@ -290,17 +368,22 @@ header {
   }
 
   .video-text p:nth-child(1) {
-    width: 58%;
+    width: 50%;
   }
 
   .video-text p:nth-child(2) {
     width: 50%;
+    margin: 2rem 0 0 0;
   }
 
   .video-text {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .video {
+    flex: 1;
   }
 }
 
@@ -356,5 +439,10 @@ header {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .border {
+    width: 27rem;
+    height: 15rem;
   }
 }
