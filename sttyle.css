@@ -239,7 +239,7 @@ header {
 }
 
 .module {
-  height: 80vh;
+  height: 100vh;
 }
 
 .top {
@@ -275,7 +275,7 @@ header {
 
 .graphic {
   display: flex;
-  height: 80vh;
+  height: 100vh;
 }
 
 .graphic-left {
@@ -351,6 +351,64 @@ header {
   justify-content: end;
 }
 
+.tools {
+  height: 80vh;
+  background-color: var(--bgc-color);
+  color: var(--white-font);
+}
+
+.tools-container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.tools-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 2rem;
+}
+
+.tools-top p:nth-child(1) {
+  padding: 0.7rem 1rem;
+  background-color: #f0f0f0;
+  color: var(--black-font);
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
+.tools-top p:nth-child(2) {
+  font-size: 2.5rem;
+}
+
+.tools-bottom {
+  flex: 1.5;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.tools-card {
+  height: 75%;
+  margin: auto;
+}
+
+.tools-card-tittle {
+  font-size: 1.7rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.tools-card-text {
+  margin-top: 1.5rem;
+  color: #969696;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
 @keyframes different {
   0% {
     transform: translateX(95rem);
@@ -422,6 +480,27 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+  }
+
+  .graphic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .graphic-mid {
+    flex-direction: column-reverse;
+  }
+
+  .graphic-inclusive {
+    width: 85%;
+  }
+
+  .graphic-right img {
+    margin-left: 3rem;
+  }
+
+  .graphic2 {
+    justify-content: start;
   }
 }
 
