@@ -239,7 +239,7 @@ header {
 }
 
 .module {
-  height: 100vh;
+  height: 120vh;
 }
 
 .top {
@@ -284,7 +284,7 @@ header {
 
 .graphic-inclusive {
   width: 75%;
-  height: 100%;
+  height: 75%;
   margin: auto;
 }
 
@@ -411,6 +411,130 @@ header {
   color: #969696;
   font-size: 1.1rem;
   line-height: 1.7rem;
+}
+
+.testimonials {
+  background: linear-gradient(to bottom, #e1ede9, #fff);
+}
+
+.testimonials-tittle {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.testimonials-tittle span {
+  padding: 1rem 2rem;
+  background-color: #f0f0f0;
+  border-radius: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.testimonials-text {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+}
+
+.testimonials-box {
+  width: 80%;
+  height: 400px;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  display: flex;
+  box-shadow: -10px 10px 5px rgba(249, 68, 68, 0.981);
+  background-color: var(--black-font);
+}
+
+.testimonials-box-left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.testimonials-box-left-img {
+  width: 95%;
+  margin: auto;
+}
+
+.testimonials-box-left-img img {
+  width: 10rem;
+}
+
+.testimonials-box-left-text {
+  width: 95%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.testimonials-box-left-person {
+  width: 95%;
+  margin: 7rem auto;
+}
+
+.testimonials-box-left-person p:nth-child(1) {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-box-right {
+  flex: 1;
+  background-color: var(--black-font);
+  color: var(--white-font);
+  border-radius: 2rem;
+}
+
+.testimonials-box-right-math {
+  width: 90%;
+  margin: 2rem auto 0;
+  font-size: 2.5rem;
+}
+
+.testimonials-box-right-text {
+  width: 90%;
+  margin: 0.3rem auto 0;
+  font-size: 1.2rem;
+}
+
+.testimonials-box-right div {
+  width: 90%;
+  margin: 12.5rem auto 0;
+}
+
+.testimonials-box-right div button {
+  background-color: var(--green-color);
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.testimonials-box-right div button:hover {
+  background-color: var(--hover-gren-color);
+  transition: 0.5s;
+}
+
+.testimonials-icons {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.testimonials-icons-img {
+  padding: 0.8rem 1.8rem;
+}
+
+.testimonials-icons-img img {
+  height: 3rem;
+  width: 8rem;
+}
+
+.testimonials-icons-img:hover {
+  background-color: #e7e7e7;
+  transition: 0.5s;
+  border-radius: 0.5rem;
 }
 
 @keyframes different {
