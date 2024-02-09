@@ -239,7 +239,7 @@ header {
 }
 
 .module {
-  height: 120vh;
+  height: 100vh;
 }
 
 .top {
@@ -524,6 +524,7 @@ header {
 
 .testimonials-icons-img {
   padding: 0.8rem 1.8rem;
+  cursor: pointer;
 }
 
 .testimonials-icons-img img {
@@ -535,6 +536,33 @@ header {
   background-color: #e7e7e7;
   transition: 0.5s;
   border-radius: 0.5rem;
+}
+
+.wrapper p:nth-child(1) {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+}
+
+.wrapper p:nth-child(2) {
+  width: 60%;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.animation-button {
+  margin-top: 2rem;
+}
+
+.animation-button button {
+  background-color: var(--green-color);
+  border: none;
+}
+
+.animation-button button:hover {
+  background-color: var(--hover-gren-color);
+  transition: 0.5s;
 }
 
 @keyframes different {
@@ -570,6 +598,16 @@ header {
 
   .video {
     flex: 1;
+  }
+
+  .testimonials-box-left-person {
+    margin: 2rem auto;
+  }
+
+  .testimonials-box-left-text {
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 }
 
@@ -610,6 +648,14 @@ header {
   .tools-card-icon-bottom {
     margin-top: 5rem;
   }
+
+  .testimonials-icons {
+    gap: 3rem;
+  }
+
+  .testimonials-icons-img img {
+    width: 6rem;
+  }
 }
 
 @media (max-width: 780px) {
@@ -639,6 +685,35 @@ header {
 
   .graphic2 {
     justify-content: start;
+  }
+
+  .testimonials-box-right div {
+    margin: 12.5rem auto 0;
+  }
+
+  .testimonials-box-right div button {
+    width: 8rem;
+  }
+
+  .testimonials-box-right-math {
+    font-size: 1.5rem;
+  }
+
+  .testimonials-box-right-text {
+    font-size: 0.9rem;
+  }
+
+  .testimonials-icons {
+    gap: 1rem;
+  }
+
+  .testimonials-icons-img img {
+    width: 3.5rem;
+    height: 2rem;
+  }
+
+  .button {
+    margin-top: 0.5rem;
   }
 }
 
@@ -682,5 +757,59 @@ header {
     color: #969696;
     font-size: 0.8rem;
     line-height: 1.3rem;
+  }
+
+  .testimonials-box-left-img img {
+    width: 6rem;
+  }
+
+  .testimonials-box-left-person {
+    margin: 1rem auto;
+  }
+
+  .testimonials-box-right div button {
+    width: 5rem;
+  }
+
+  .tools {
+    height: 145vh;
+  }
+
+  .module {
+    height: 170vh;
+  }
+
+  .graphic {
+    height: 135vh;
+  }
+
+  .testimonials-icons {
+    gap: 1;
+  }
+
+  .testimonials-icons-img {
+    padding: 0;
+  }
+
+  .wrapper p:nth-child(1) {
+    font-size: 1.8rem;
+  }
+
+  .wrapper p:nth-child(2) {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 333px) {
+  .video-text {
+    align-items: start;
+  }
+
+  .testimonials-box {
+    height: 550px;
+  }
+
+  .testimonials-box-right div {
+    margin-top: 0.5rem;
   }
 }
