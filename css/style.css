@@ -201,7 +201,7 @@ header {
 }
 
 .border {
-  background-image: url(./img/videoframe_6333.png);
+  background-image: url(/Tinny-path/img/videoframe_6333.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -563,6 +563,49 @@ header {
 .animation-button button:hover {
   background-color: var(--hover-gren-color);
   transition: 0.5s;
+}
+
+.footer-top {
+  display: flex;
+  height: 50vh;
+  border: 2px solid lime;
+}
+
+.footer-top-left {
+  border: 2px solid red;
+  flex: 1;
+}
+
+.footer-top-left img {
+  border: 2px solid orange;
+  margin: 4rem 0 0 5rem;
+  width: 9rem;
+}
+
+.adress {
+  margin: 1rem 0 0 5rem;
+}
+
+.contact {
+  margin: 2rem 0 0 5rem;
+}
+
+.contact a {
+  text-decoration: underline;
+  color: var(--black-font);
+}
+
+.footer-top-right-icons {
+  margin: 3rem 0 0 5rem;
+}
+
+.footer-top-right-icons i {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.footer-top-right {
+  flex: 1;
 }
 
 @keyframes different {
