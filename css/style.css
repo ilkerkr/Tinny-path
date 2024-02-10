@@ -959,6 +959,20 @@ section {
   .head {
     height: 25vh;
   }
+
+  @keyframes different {
+    0% {
+      transform: translateX(25rem);
+    }
+  
+    100% {
+      transform: translateX(-137rem);
+    }
+  }
+
+  .animation-icons img {
+    animation: different 60s linear infinite;
+  }
 }
 
 @media (max-width: 333px) {
