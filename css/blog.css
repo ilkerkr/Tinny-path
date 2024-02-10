@@ -92,6 +92,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .border {
@@ -101,6 +102,23 @@ section {
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 15px 15px 10px black;
+  backface-visibility: hidden;
+  transition: 1s transform;
+  position: absolute;
+}
+
+.backend {
+  transform: rotateX(-180deg);
+}
+
+.main:hover .fronted {
+  transform: rotateX(180deg);
+  transition: all 3s;
+}
+
+.main:hover .backend {
+  transform: rotateX(0);
+  transition: all 3s;
 }
 
 .img {
