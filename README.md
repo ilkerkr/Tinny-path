@@ -1,5 +1,7 @@
 <h1>Tinny Path</h1>
 
+![Tinny Path Gif](./img/TinyPath-GoogleChrome2024-02-1513-43-08-ezgif.com-video-to-gif-converter.gif)
+
 [👉click here to login Tinny Path] (https://ilkerkr.github.io/Tinny-path/)
 
 <h2>Description</h2>
